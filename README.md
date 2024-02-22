@@ -20,3 +20,7 @@ a Random Forest model may work best because of the numerical and categorical nat
 5. Define a classification schema for each column, then take the average for each team to correlate with the team avg. catch rate data
 6. Consider other datasets to make the analysis more robust, i.e., stadium location, secondary rank, etc. The end goal is to aggregate all data into one dataframe for model and visualization purposes
 7. Train the ML model
+
+## Data Acquisition
+- NFL player level data acquired from https://www.pro-football-reference.com/years/2023/receiving.htm
+- Game level data acquired from https://github.com/nflverse/nfldata/blob/master/data/games.csv
